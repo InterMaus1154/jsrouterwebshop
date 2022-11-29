@@ -1,0 +1,110 @@
+
+  
+  {
+    "products":[
+                {
+                    "name": "AMD Ryzen 3 5300G 3.8GHz",
+                    "brand": "AMD",
+                    "cores": 4,
+                    "threads": "8",
+                    "socket": "AM4",
+                    "boost-clock": "4.3GHz",
+                    "default TDP": "65W",
+                    "image_id": "r35300g",
+                    "type": "processor",
+                    "price": "170"
+                },
+                {
+                    "name": "AMD Ryzen 5 5600X 3.7GHz",
+                    "brand": "AMD",
+                    "cores": "6",
+                    "threads": "12",
+                    "socket": "AM4",
+                    "boost-clock": "4.6GHz",
+                    "default TDP": "65W",
+                    "image_id": "r55600x",
+                    "type": "processor",
+                    "price": "190"
+                },
+                {
+                    "name": "AMD Ryzen 7 5700X 3.4GHz",
+                    "brand": "AMD",
+                    "cores": "8",
+                    "threads": "16",
+                    "socket": "AM4",
+                    "boost-clock": "4.6GHz",
+                    "default TDP": "65W",
+                    "image_id": "r75700x",
+                    "type": "processor",
+                    "price": "260"
+                },
+                {
+                    "name": "AMD Ryzen 9 5900X 3.7GHz",
+                    "brand": "AMD",
+                    "cores": "12",
+                    "threads": "24",
+                    "socket": "AM4",
+                    "boost-clock": "4.8GHz",
+                    "default TDP": "105W",
+                    "image_id": "r95900x",
+                    "type": "processor",
+                    "price": "400"
+                },
+                {
+                    "name": "Intel Core i3-10100 3.6GHz",
+                    "brand": "INTEL",
+                    "cores": "4",
+                    "threads": "8",
+                    "socket": " FCLGA1200",
+                    "boost-clock": "4.3GHz",
+                    "default TDP": "65W",
+                    "image_id": "i310100",
+                    "type": "processor",
+                    "price": "130"
+                },
+                {
+                    "name": "Intel Core i5-10500 3.1GHz",
+                    "brand": "INTEL",
+                    "cores": "6",
+                    "threads": "12",
+                    "socket": " FCLGA1200",
+                    "boost-clock": "4.5GHz",
+                    "default TDP": "65W",
+                    "image_id": "i510500",
+                    "type": "processor",
+                    "price": "220"
+                },
+                {
+                    "name": "Intel Core i7-10700 2.7GHz",
+                    "brand": "INTEL",
+                    "cores": "8",
+                    "threads": "16",
+                    "socket": " FCLGA1200",
+                    "boost-clock": "4.8GHz",
+                    "default TDP": "65W",
+                    "image_id": "i710700",
+                    "type": "processor",
+                    "price": "280"
+                },
+                {
+                    "name": "Intel Core i9-10900 2.8GHz",
+                    "brand": "INTEL",
+                    "cores": "10",
+                    "threads": "20",
+                    "socket": " FCLGA1200",
+                    "boost-clock": "5.2GHz",
+                    "default TDP": "65W",
+                    "image_id": "i910900",
+                    "type": "processor",
+                    "price": "410"
+                },
+      {
+        "name": "Gigabyte RX6600XT",
+        "brand": "Gigabyte",
+        "chip_brand": "AMD",
+        "type": "graphicscard",
+        "image_id": "6600xt",
+        "price": "500"
+      }
+    ]
+  }

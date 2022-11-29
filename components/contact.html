@@ -1,0 +1,46 @@
+
+<div class="contact-page">
+    <div class="section-title">Contact</div>
+    <div class="contact-pre-form">
+        <div class="contact-info-box">
+            <div class="box-title">Contact informations</div>
+            <div class="contact-title">Email: <span>customersupport@jswebshop.com</span></div>
+            <div class="contact-title">Phone: <span>+44 71234 56789</span></div>
+            <div class="contact-title">Post Address: <span>41 Example road <br> AA11 0BB</span></div>
+        </div>
+            <form>
+                <div class="box-title">Send us an enquiry form
+                    <span id="form-warning-message">Invalid form</span>
+                    <span>(*) - required</span>
+                </div>
+                <label class="required" for="form-firstname">Firstname
+                    <input class="req_field" id="form-firstname" type="text" placeholder="Firstname"/>
+                </label>
+                <label for="form-surname">Surname
+                    <input id="form-surname" type="text" placeholder="Surname"/>
+                </label>
+                <label class="required" for="form-email">Email
+                    <input class="req_field" id="form-email" type="email" placeholder="Email"/>
+                </label>
+                <label for="form-order-number">Order number
+                    <input id="form-order-number" type="text" placeholder="Order number"/>
+                </label>
+                <label for="form-product-name">Product name
+                    <input id="form-product-name" type="text" placeholder="Product name"/>
+                </label>
+
+                <label class="required" for="form-issue-type">Type of enquiry
+                    <select id="form-issue-type">
+                        <option>Product</option>
+                        <option>Order</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+                <label class="required" >Tell us more details (<span id="form-left-char"></span> characters left)
+                    <br><textarea class="req_field" id="form-text-details" rows="5" cols="50" placeholder="Write here more..." ></textarea>
+                    <div class="textarea-warning">You exceeded the character limit!</div>
+                </label>
+                <input id="submit" type="submit" value="Send form"/>
+            </form>
+    </div>
+</div>

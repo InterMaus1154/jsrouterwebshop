@@ -1,0 +1,44 @@
+
+/**In this function the datas are read with a for loop through the JSON, and separate product boxes are created,
+ * depending on the number of products
+ */
+/*function useData(data){
+
+    const main = document.querySelector("main");
+
+    const productContainer = document.createElement("div");
+    productContainer.classList.add("product-container");
+
+    const productHeader = document.createElement("h1");
+    productHeader.classList.add("product-header");
+
+    const productInfoBox = document.createElement("div");
+    productInfoBox.classList.add("product-info-box");
+
+    const productBrand = document.createElement("p")
+    productBrand.classList.add("product-brand");
+
+    for(let i=0;i<data.products[0].processors.length;i++){
+
+        productHeader.innerText = data.products[0].processors[i].name;
+        productBrand.innerText = data.products[0].processors[i].brand;
+
+        if(data.products[0].processors[i].brand == "AMD"){
+            productBrand.classList.add("amd-color");
+        }
+
+        if(data.products[0].processors[i].brand == "INTEL"){
+            productBrand.classList.add("intel-color");
+        }
+
+        productContainer.append(productHeader);
+        productInfoBox.append(productBrand);
+
+        productContainer.append(productInfoBox)
+
+        const clone = productContainer.cloneNode(true);
+
+        main.append(clone);
+    }
+
+}*/
