@@ -12,7 +12,7 @@ goToProductPage} from "./interface.js";
 import {setProductEventListener} from "./index.js";
 
 
-basketArray = [];
+let basketArray = [];
 
 
 
@@ -256,6 +256,11 @@ document.addEventListener("change", (event)=>{
 });
 
 function checkIfBasketIsEmpty(){
+    if(basketArray == null}
+    {
+    return;
+    }
+    
     if(basketArray.length == 0){
         basketEmptyText.classList.add("visible-menu");
         basketElement.append(basketEmptyText);
