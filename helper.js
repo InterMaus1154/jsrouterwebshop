@@ -256,7 +256,7 @@ document.addEventListener("change", (event)=>{
 });
 
 function checkIfBasketIsEmpty(){
-    if(basketArray == null}
+    if(basketArray == null)
     {
     return;
     }
