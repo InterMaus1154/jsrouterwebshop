@@ -12,7 +12,7 @@ goToProductPage} from "./interface.js";
 import {setProductEventListener} from "./index.js";
 
 
-let basketArray = [];
+basketArray = [];
 
 
 
